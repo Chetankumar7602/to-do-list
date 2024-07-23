@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(220, 247, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #c8eed0;
+    border-radius: 10px;
+    padding-left : 300px; 
+    padding-right: 300px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+header:hover{
+    cursor: pointer;
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+h1 {
+    font-weight: bold;
+    color: rgb(59, 65, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(243, 230, 214);
+    color: rgb(204, 44, 44);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 80%;
+    height: 80%;
+    max-height: 40%;
+    text-align: center;  
+}
+
+.container:hover{
+    cursor: pointer;
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+.container:hover h4{
+    color: blue; 
+    text-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.demo1 {
+    display: flex;
+    gap: 10px;
+}
+
+#text {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+#text:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#add {
+    background-color: grey;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#add:hover {
+    border-color: black;
+    background-color: white;
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+    background-color: darkred;
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+
+.edit {
+    background-color: rgb(211, 214, 211);
+    border-radius: 2px;
+}
+
+.edit:hover {
+    
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.delete:hover {
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+table tr th:hover{
+    cursor: pointer;
+    box-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
+tbody:hover{
+    color: blue; 
+    text-shadow: 8px 4px 8px rgb(56, 55, 55 , 0.5);
+}
